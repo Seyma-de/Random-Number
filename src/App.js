@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./style.css";
 
 function App() {
-  const [minVal, setMinVal] = useState(0);
+  const [minVal, setMinVal] = useState(10);
   const [maxVal, setMaxVal] = useState(100);
   const [randomNum, setRandomNum] = useState(5);
   const giveRandomNumber = () => {
